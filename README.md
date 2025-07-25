@@ -70,3 +70,9 @@ docker-compose up --build
 
 This project is licensed under the [MIT license](LICENSE).
 
+---
+
+## Author
+
+tflm91 - [GitHub-Profil](https://github.com/tflm91/)
+

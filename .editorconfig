@@ -1,0 +1,28 @@
+
+root = true
+
+# General default values
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+# Markdown files - no whitespace removal
+[*.md]
+trim_trailing_whitespace = false
+indent_size = 2
+
+# YAML / JSON / JS / TS - 2 spaces usual
+[*.{yaml,yml,json,js,ts,tsx}]
+indent_size = 2
+
+# Python - PEP8-compliant indentation
+[*.py]
+indent_size = 4
+
+# HTML/CSS - 2 spaces usual
+[*.{html,css,scss}]
+indent_size = 2
